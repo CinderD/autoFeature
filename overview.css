@@ -1,0 +1,80 @@
+h1 {
+  font: 12px sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+div {
+  height: 17px;
+}
+div.container {
+  float: left;
+  width: 50%;
+}
+div.negative {
+  float: right;
+  background-color: brown;
+}
+div.positive {
+  background-color: steelblue;
+}
+
+table {
+  /* font: 14px sans-serif; */
+  font-family: Avenir; 
+  font-size: 14px;
+  vertical-align: middle;
+  text-align: left;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+td,th {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+/* tr.even {
+  background-color: whitesmoke; 
+} */
+/* add hover */
+tr:hover {
+  background-color: #ffa;
+}
+
+/* td.chart:hover::after,  */
+tr:hover::after {
+  content: "";
+  position: absolute;
+  background-color: #ffa;
+  /* left: 0; */
+  /* top: -5000px;
+  height: 10000px;
+  width: 100%; */
+  z-index: -1;
+}
+/* add hover */
+/* td.chart {
+  background-color: white; 
+} */
+
+
+th {
+  padding-left: 8px;
+}
+
+th.total {
+  text-align: right;
+}
+
+td.data {
+  padding-left: 10px;
+
+}
+td.value {
+  text-align: right;
+}
+.headName {
+  font-family: Avenir; 
+  font-size: 12px;
+}
